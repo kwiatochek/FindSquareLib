@@ -21,4 +21,9 @@ public class Circle : Figure
             rad 
         };
     }
+
+    public override double GetArea()
+    {
+        return _sides[0] * _sides[0] * Math.PI;
+    }
 }
